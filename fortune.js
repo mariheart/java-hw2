@@ -8,7 +8,8 @@ fortButton.addEventListener("click", fortune);
 fortButton.addEventListener("click", restyle);
 
 function fortune() {
-    fortuneOut = fortuneList[Math.floor(Math.random() * fortuneList.length)];
+    let fortInput = document.getElementById("fortune-input").value;
+    fortuneOut = fortInput + " : " + fortuneList[Math.floor(Math.random() * fortuneList.length)];
     console.log(fortInput + ":" + fortuneOut);
     fortOutput.innerHTML = fortuneOut;
 }
