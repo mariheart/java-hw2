@@ -1,0 +1,79 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    background-color: teal;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vmin;
+    margin: 10vmin;
+    padding: 10vmin;
+    color: white;
+}
+
+@keyframes header {
+    0%{scale: 100%;}
+    25%{scale: 75%;}
+    50%{scale: 50%;}
+    75%{scale: 75%;}
+    100%{scale: 100%;}
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10vmin;
+    color: white;
+    animation: header 6s infinite;
+    animation-timing-function: linear;
+    overflow: hidden;
+}
+
+#half-input {
+    width: 100px;
+    padding: 12px 15px;
+    margin: 9px 4px;
+    background-color: teal;
+    border: none;
+    font-size: 5vmin;
+    color: white;
+}
+
+
+#half-button {
+    width: 100px;
+    padding: 12px 15px;
+    margin: 9px 4px;
+    border: 2px solid black;
+    background-color: rgb(183, 228, 247);
+}
+
+#fortune-input {
+    width: 100px;
+    padding: 12px 15px;
+    margin: 9px 4px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: teal;
+    font-size: 5vmin;
+    color: white;
+    
+}
+
+#fortune-button {
+    width: 100px;
+    padding: 12px 15px;
+    margin: 9px 4px;
+    border: 2px solid black;
+    background-color: rgb(183, 228, 247);
+}  
+
+#fortune-output {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vmin;
+    margin: 10vmin;
+    padding: 10vmin;
+    color: white;
+}
