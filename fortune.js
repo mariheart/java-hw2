@@ -9,7 +9,7 @@ fortButton.addEventListener("click", restyle);
 
 function fortune() {
     fortuneOut = fortuneList[Math.floor(Math.random() * fortuneList.length)];
-    console.log(fortInput.value + ":" + fortuneOut);
+    console.log(fortInput + ":" + fortuneOut);
     fortOutput.innerHTML = fortuneOut;
 }
 
